@@ -1,0 +1,114 @@
+
+
+nav{
+   display: flex;
+   background-color:#0F6E53;
+   position: fixed;
+   width: 100%;
+   justify-content: space-around;
+   margin-top: -1vh;
+   height: 10vh;
+   font-family:  Arial, Helvetica, sans-serif;
+}
+header{
+    position: sticky;
+    background-color: #0F6E53;
+    justify-content: space-around;
+}
+a{
+   color: white;
+   font-size: small;
+   text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+.Link{
+    margin-top: 3vh;
+}
+.Nam{
+    background: url('banière-1.png');
+    height: 90vh;
+    background-size: cover;
+    margin-left: -20vh;
+    
+}
+.Art{
+    
+    background-color: #0F6E53;
+    height: 108vh;
+    width:33%;
+    color: white;
+    
+}
+.Art_cont{
+    display: flex;
+    justify-content: space-between;    
+}
+.Art_but{
+    background-color: #053A2B;
+    height:6vh;
+    width:32vh;
+    margin-left:18vh;
+    border-radius: 0.6vh;
+    display: flex;
+}
+.Pictures{
+    text-align: center;
+}
+.Suscript{
+    height: 40vh;
+    background-color: #0F6E53;
+    text-align: center;
+}
+.News_De_SEM{
+    height:50vh
+}
+.Artisem{
+    width:30%;
+    background-color: white;
+    height:100vh;
+    box-shadow: 0 0 3vh grey;
+    
+}
+.Artisem:hover{
+    box-shadow: 0 0 5vh grey;
+    
+}
+.Articulo{
+    display: flex;
+    justify-content: space-around;
+}
+.Foot{
+    display: flex;
+    margin-top: 80vh;
+    
+}
+.Foot1{
+    background-color: #0F6E53;
+    height:60vh;
+    width:2vh
+}
+.Foot2{
+    background-color: #3D4E60;
+    height:60vh;
+    width:220vh
+}
+.RS{
+    display:flex;
+    justify-content: space-between;
+    width: 17%;
+    float: left;
+}
+.TP{
+    float: right;
+}
+.RS_TP{
+    display: inline;
+    
+}
+.Contact{
+    margin-top: 20vh;
+    justify-content: space-between;
+    width:100%
+}
